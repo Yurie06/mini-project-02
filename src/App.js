@@ -4,6 +4,9 @@ import Pricing from './Components/Pricing';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import About from './Components/About';
+
+
 
 
 
@@ -14,6 +17,7 @@ function App() {
       <div>
       <Footer/>
        <Pricing/>
+       <About/>
       </div>
     </body>
   )
