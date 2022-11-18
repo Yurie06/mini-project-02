@@ -10,6 +10,7 @@ import ErrorPage from "./Pages/ErrorPage";
 function App() {
   return (
   <Router>
+    <div>Hello </div>
     <nav>
       <Link> Home </Link>
       <Link> About </Link>
