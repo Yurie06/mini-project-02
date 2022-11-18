@@ -5,24 +5,15 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Profile from "./Pages/Profile";
 import ErrorPage from "./Pages/ErrorPage";
+import Gallery from './Pages/Gallery';
 
 
 function App() {
   return (
-  <Router>
-    <div>Hello </div>
-    <nav>
-      <Link> Home </Link>
-      <Link> About </Link>
-      <Link> Profile </Link>
-    </nav>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/profile" element={<Profile />} />
-      <Route path="*" element={<ErrorPage />} />
-    </Routes>
-  </Router>
+    <div>
+      <Gallery />
+    </div>
+  
   );
 }
 

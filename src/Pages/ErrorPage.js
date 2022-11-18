@@ -8,4 +8,4 @@ function ErrorPage() {
     )
 }
 
-export default Home;
+export default ErrorPage;
