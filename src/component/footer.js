@@ -9,7 +9,7 @@ class Footer extends React.Component {
     render() {
         return (
             <div class="row">
-  <footer class="py-3 my-4">
+  <footer class="">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
     <li class="nav-item">
                         <Link class="nav-link active" aria-current="page" to="/">Home</Link>

@@ -7,7 +7,7 @@ class Home extends React.Component {
     render() {
         return ( <>
                 <body className="bgimg">
-                    <h1 class="highlight pt-5">HIGHLIGHTS</h1>
+                    <h1 class="highlight col-lg-12 text-start text-light pt-5 px-5">Highlights</h1>
                     <HeroSlider />
                     <section class="text-light mt-4" id="homer">
                         <h1 class="process pt-4">The Process</h1>
@@ -53,13 +53,13 @@ class Home extends React.Component {
                                 </div>
                             </div>
                         </div>
-                    </section><br/>
+                    </section>
                     <div class="row" id="tutorial">
                         <div class="row align-items-center">
                             <div class="sketch col-lg-4 py-5 px-5">
                             <h1 class="display-9 text-light">Sketch plan tutorial</h1><br/>
                             <p class="text-light">Sketching is much more than Link scribble on Link piece of paper. It is Link powerful process that aids in discovering the best ideas.</p>
-                            <Link class="btn btn-outline-secondary text-light" type="button" role="button" to="/igned_up.html">Get assistance</Link>
+                            <Link class="btn btn-outline-secondary text-light" type="button" role="button" to="/SignUp">Get assistance</Link>
                             </div>
                             <div class="col-lg-4 img-fluid">
                                 <iframe width="400" height="350" src="https://www.youtube.com/embed/gkL2X0VVg0Q" title="HOW TO DESIGN A FLOOR PLAN FOR UPCOMING ARCHITECTURE STUDENT." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
