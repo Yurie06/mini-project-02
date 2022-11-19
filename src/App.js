@@ -21,6 +21,7 @@ function App() {
         <Route path="/Pricing" element={<Pricing />} />
         </Routes>
       <Footer />
+      <SignIn />
       </div>
     </body>
   )
