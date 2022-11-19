@@ -5,9 +5,16 @@ import Home from './pages/home';
 import Services from './pages/services';
 import Pricing from './pages/pricing';
 import Footer from './component/footer';
-import Sign_n from './component/Sign_in';
+import Gallery from './pages/gallery';
+import SignUp from './component/Sign';
+// import UsersOption from './component/UsersOption';
+// import Customers_Option from './component/footer';
+// import SignIn from './component/SignIn';
+// import About from './component/About';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Route, Routes} from "react-router-dom"
+
+
 
 
 function App() {
@@ -16,15 +23,18 @@ function App() {
       <div>
       <Header />
         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Services" element={<Services />} />
-        <Route path="/Pricing" element={<Pricing />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Services" element={<Services />} />
+          <Route path="/Pricing" element={<Pricing />} />
+          <Route path="/Gallery" element={<Gallery />} />
+          {/* <Route path="/About" element={<About />} /> */}
         </Routes>
-      <Footer />
-      <SignIn />
+        <Footer />
+        <SignUp />
       </div>
     </body>
   )
 }
+
 
 export default App;
