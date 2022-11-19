@@ -44,6 +44,8 @@
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.1",
+    "postcss": "^8.4.19",
+    "postcss-loader": "^7.0.1",
     "webpack": "^5.75.0"
   }
 }

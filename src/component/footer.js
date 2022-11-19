@@ -1,18 +1,37 @@
 import React from "react";
+import { Link } from "react-router-dom"
+// import {} from '@fortawesome/fontawesome-svg-core';
+// import {} from '@fortawesome/free-solid-svg-icons';
+// import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+
 
 class Footer extends React.Component {
     render() {
         return (
-            <div class="container">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                    <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
+            <div class="row">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item">
+                        <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+                        </li>
+                        <li class="nav-item">
+                        <Link class="nav-link active" aria-current="page" to="/services">Services</Link>
+                        </li>
+                        <li class="nav-item">
+                        <Link class="nav-link active" aria-current="page" to="pricing">Pricing</Link>
+                        </li>
+                        <li class="nav-item">
+                        <Link class="nav-link active" aria-current="page" to="gallery">Gallery</Link>
+                        </li>
+                        <li class="nav-item">
+                        <Link class="nav-link active" aria-current="page" to="About">About Us</Link>
+                        </li>
+    </ul>
+    <p class="text-center">&copy; 2022 SheltDraw, Inc</p>
+  </footer>
+</div>
 
-                    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                    </a>
-                </footer>
-            </div>
-        );
+        )
     }
 }
-
 export default Footer;

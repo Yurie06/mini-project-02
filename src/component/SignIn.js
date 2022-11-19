@@ -1,8 +1,13 @@
+// import { getValue } from '@testing-library/user-event/dist/utils'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+// getValue = () => {
+  // console.log('Hello World');
+// }
 
-function Sign_in() {
+
+function SignIn () {
   return (
     <div>
       <div class="modal modal-signin position-static d-block" tabindex="-1" role="dialog" id="modalSignin">
@@ -36,4 +41,4 @@ function Sign_in() {
   )
 }
 
-export default Sign_in
+export default SignIn
