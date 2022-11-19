@@ -1,5 +1,6 @@
 import React from "react";
 import Dropdown from 'react-bootstrap/Dropdown';
+import { Link } from "react-router-dom";
 
 
 class Pricing extends React.Component {
@@ -134,7 +135,7 @@ class Pricing extends React.Component {
                                 </Dropdown.Toggle>
 
                                 <Dropdown.Menu>
-                                    <Dropdown.Item href="SignUp.js">Lumpsum Estimate</Dropdown.Item>
+                                    <Dropdown.Item><Link to="/UsersOption"></Link>Lumpsum Estimate</Dropdown.Item>
                                     <Dropdown.Item href="SignUp.js">Itemize Estimate</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
