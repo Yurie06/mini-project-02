@@ -35,10 +35,10 @@ class Pricing extends React.Component {
                                         Fill out form
                                     </Dropdown.Toggle>
 
-                                    <Dropdown.Menu>
-                                        <Dropdown.Item>2D Black & White</Dropdown.Item>
-                                        <Dropdown.Item href="SignUp.js">2D Full Color</Dropdown.Item>
-                                        <Dropdown.Item href="SignUp.js">2D Textured</Dropdown.Item>
+                                    <Dropdown.Menu >
+                                        <Dropdown.Item><Link type="text" to="/UsersOption">2D Black & White</Link></Dropdown.Item>
+                                        <Dropdown.Item><Link type="text" to="/UsersOption">2D Full Color</Link></Dropdown.Item>
+                                        <Dropdown.Item><Link type="text" to="/UsersOption">2D Textured</Link></Dropdown.Item>
                                     </Dropdown.Menu>
                                     </Dropdown>
                                 </div>
@@ -68,10 +68,10 @@ class Pricing extends React.Component {
                                 </Dropdown.Toggle>
 
                                 <Dropdown.Menu>
-                                    <Dropdown.Item href="SignUp.js">Bare Modeling</Dropdown.Item>
-                                    <Dropdown.Item href="SignUp.js">Realistic Rendering</Dropdown.Item>
-                                    <Dropdown.Item href="SignUp.js">Fly-tru Animation</Dropdown.Item>
-                                    <Dropdown.Item href="SignUp.js">Walk-tru Animation</Dropdown.Item>
+                                    <Dropdown.Item><Link type="text" to="/UsersOption">Bare Modeling</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link type="text" to="/UsersOption">Realistic Rendering</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link type="text" to="/UsersOption">Fly-tru Animation</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link type="text" to="/UsersOption">Walk-tru Animation</Link></Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                             </div>
@@ -104,9 +104,9 @@ class Pricing extends React.Component {
                                 </Dropdown.Toggle>
 
                                 <Dropdown.Menu>
-                                    <Dropdown.Item href="SignUp.js">Bungalow</Dropdown.Item>
-                                    <Dropdown.Item href="SignUp.js">2 Storey</Dropdown.Item>
-                                    <Dropdown.Item href="SignUp.js">3 Storey</Dropdown.Item>
+                                    <Dropdown.Item><Link type="text" to="/UsersOption">Bungalow</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link type="text" to="/UsersOption">2 Storey</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link type="text" to="/UsersOption">3 Storey</Link></Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                             </div>
@@ -135,8 +135,8 @@ class Pricing extends React.Component {
                                 </Dropdown.Toggle>
 
                                 <Dropdown.Menu>
-                                    <Dropdown.Item><Link to="/UsersOption"></Link>Lumpsum Estimate</Dropdown.Item>
-                                    <Dropdown.Item href="SignUp.js">Itemize Estimate</Dropdown.Item>
+                                    <Dropdown.Item><Link type="text" to="/UsersOption">Lumpsum Estimate</Link></Dropdown.Item>
+                                    <Dropdown.Item><Link type="text" to="/UsersOption">Itemize Estimate</Link></Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                             </div>
